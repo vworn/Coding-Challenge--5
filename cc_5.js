@@ -32,3 +32,9 @@ cartItems.shift(); // Removing the first item
 
 console.log(`Final Cart Items: ${cartItems}`);
 
+// Task 4: Map Method - Price Adjustments
+let prices = [100, 200, 300];
+let discountedPrices = prices.map(price => price * 0.9); // Applying 10% discount
+
+console.log(`Discounted Prices: ${discountedPrices}`);
+
