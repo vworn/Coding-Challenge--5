@@ -38,3 +38,9 @@ let discountedPrices = prices.map(price => price * 0.9); // Applying 10% discoun
 
 console.log(`Discounted Prices: ${discountedPrices}`);
 
+// Task 5: Filter Method - Product Availability
+let inventory = [5, 0, 12, 8, 0];
+let availableProducts = inventory.filter(quantity => quantity > 0); // Removing out-of-stock items
+
+console.log(`Available Products: ${availableProducts}`);
+
