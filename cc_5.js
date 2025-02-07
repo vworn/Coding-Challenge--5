@@ -74,4 +74,7 @@ let applyDiscount = function(price, discount) {
 
 applyDiscount(200, 0.15);
 
+// Task 10: Arrow Function - Loyalty Points
+let calculatePoints = purchaseAmount => Math.floor(purchaseAmount / 10);
 
+console.log(`Loyalty Points Earned: ${calculatePoints(250)}`);
