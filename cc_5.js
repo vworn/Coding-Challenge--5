@@ -21,3 +21,14 @@ let order = {
 };
 
 order.displayOrder();
+
+// Task 3: Array Manipulation - Shopping Cart
+let cartItems = ["Laptop", "Headphones", "Keyboard"];
+
+cartItems.push("Mouse"); // Adding a new product
+cartItems.pop(); // Removing the last item
+cartItems.unshift("Monitor"); // Adding an item at the beginning
+cartItems.shift(); // Removing the first item
+
+console.log(`Final Cart Items: ${cartItems}`);
+
