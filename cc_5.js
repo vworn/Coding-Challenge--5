@@ -44,3 +44,8 @@ let availableProducts = inventory.filter(quantity => quantity > 0); // Removing 
 
 console.log(`Available Products: ${availableProducts}`);
 
+// Task 6: Reduce Method - Revenue Calculation
+let sales = [500, 300, 200, 400];
+let totalRevenue = sales.reduce((acc, sale) => acc + sale, 0); // Summing up total revenue
+
+console.log(`Total Revenue: $${totalRevenue}`);
