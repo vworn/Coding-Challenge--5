@@ -49,3 +49,10 @@ let sales = [500, 300, 200, 400];
 let totalRevenue = sales.reduce((acc, sale) => acc + sale, 0); // Summing up total revenue
 
 console.log(`Total Revenue: $${totalRevenue}`);
+
+// Task 7: Find Method - Customer Search
+let customers = ["Alice", "Bob", "Charlie", "David"];
+let foundCustomer = customers.find(name => name === "Charlie"); // Searching for a specific customer
+
+console.log(`Found Customer: ${foundCustomer}`);
+
